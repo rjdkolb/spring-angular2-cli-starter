@@ -3,7 +3,7 @@
 <img src="src/main/frontend/public/ng-logo.png" height="120px">
 # Spring Boot and Angular 2 starter app
 
-> Starter webapp using Spring Boot on the backend and Angular 2 on the frontend, with 
+> Starter webapp using Spring Boot on the backend and Angular 2 on the CoreUI frontend, with 
 Maven and Angular CLI as build tools and with hot reloading on both sides.
 
 ## Quickstart
