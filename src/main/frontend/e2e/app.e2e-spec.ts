@@ -1,14 +1,14 @@
-import { IdeahubPage } from './app.po';
+import { CoreUIPage } from './app.po';
 
-describe('ideahub App', function() {
-  let page: IdeahubPage;
+describe('core-ui App', function() {
+  let page: CoreUIPage;
 
   beforeEach(() => {
-    page = new IdeahubPage();
+    page = new CoreUIPage();
   });
 
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('dl works!');
+    expect(page.getParagraphText()).toEqual('app works!');
   });
 });
